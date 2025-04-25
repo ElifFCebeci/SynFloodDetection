@@ -53,7 +53,7 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X_reduced)
 print("Veri ölçeklendi.")
 
-# Eğitim ve Test Setine Ayırma (%80 eğitim, %20 test)
+# Eğitim ve Test Setine Ayırma
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.6, random_state=42)
 print(f"Eğitim seti: {X_train.shape[0]} örnek, Test seti: {X_test.shape[0]} örnek")
 
