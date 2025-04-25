@@ -29,6 +29,7 @@ ROC AUC Score
 Modelin ne kadar iyi tahmin yaptığını ölçen bir skordur. 1.0’e yakınsa mükemmel, 0.5’e yakınsa rastgele tahmin yapıyor demektir.
 ROC Eğrisi
 Saldırıyı doğru tahmin etme oranı (True Positive Rate) ile yanlış tahmin oranını (False Positive Rate) gösteren grafik. Modelin performansını görselleştirir.
+
 ------------
 Dataset
 The dataset is the raw data used for model learning. This project uses Syn.csv, which contains network traffic information.
